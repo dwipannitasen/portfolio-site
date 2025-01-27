@@ -1,0 +1,73 @@
+@import "../../app.scss";
+.container {
+  padding: 30px;
+  margin: auto;
+  position: relative;
+
+  h2{
+      text-align: center;
+      font-size: 40px;
+      padding-top: 10px ;
+      padding-bottom: 40px;
+      color: #00adb5;
+    }
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+
+  @include mobile{
+    grid-template-columns: 1fr 1fr;
+  }
+  
+    .work_container{
+      border: 1px solid #eeeeee;
+      border-radius: 10px;
+      transition: all 1s;
+
+      .work_item{
+        padding: 20px;
+        .image_container{
+          
+          img{
+            height: 100px;
+            width: 100%;
+            z-index: 1 !important;
+          }
+        }
+        .text-container{
+          text-align: justify;
+
+          h2{
+            text-align: center;
+            font-size: 25px;
+            padding: 10px;
+          }
+          button{
+            display: block;
+            margin: 10px auto 0 auto;
+            width: 130px;
+            padding: 10px;
+            background-color: #00adb5;
+            color: #222831;
+            font-weight: 500;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            transition: all 1s;
+          }
+          button:hover{
+            background: transparent;
+            border: 1px solid #00adb5;
+            color: #eeeeee;
+          }
+        }
+      }
+    }
+
+    .work_container:hover{
+      box-shadow: 0 4px 8px 0 rgba(52, 167, 165, 0.2),
+            0 6px 20px 0 rgba(52, 167, 165, 0.5);
+    }
+}
