@@ -1,6 +1,7 @@
 import "./skills.scss";
 
 const Skills = () => {
+  
   return (
     <div className="skills">
       <h5>Know More</h5>
@@ -12,7 +13,7 @@ const Skills = () => {
             <div className="article-container">
               <article>
                 <img
-                  src="/checkmark-icon.png"
+                  src="checkmark-icon.png"
                   alt="checkmark-icon"
                   className="checkmark-icon"
                 />
@@ -23,7 +24,7 @@ const Skills = () => {
               </article>
               <article>
                 <img
-                  src="/checkmark-icon.png"
+                  src="checkmark-icon.png"
                   alt="checkmark-icon"
                   className="checkmark-icon"
                 />
@@ -34,7 +35,7 @@ const Skills = () => {
               </article>
               <article>
                 <img
-                  src="/checkmark-icon.png"
+                  src="checkmark-icon.png"
                   alt="checkmark-icon"
                   className="checkmark-icon"
                 />
@@ -45,7 +46,7 @@ const Skills = () => {
               </article>
               <article>
                 <img
-                  src="/checkmark-icon.png"
+                  src="checkmark-icon.png"
                   alt="checkmark-icon"
                   className="checkmark-icon"
                 />
@@ -56,7 +57,7 @@ const Skills = () => {
               </article>
               <article>
                 <img
-                  src="/checkmark-icon.png"
+                  src="checkmark-icon.png"
                   alt="checkmark-icon"
                   className="checkmark-icon"
                 />
@@ -67,7 +68,7 @@ const Skills = () => {
               </article>
               <article>
                 <img
-                  src="/checkmark-icon.png"
+                  src="checkmark-icon.png"
                   alt="checkmark-icon"
                   className="checkmark-icon"
                 />
@@ -83,7 +84,7 @@ const Skills = () => {
             <div className="article-container">
               <article>
                 <img
-                  src="/checkmark-icon.png"
+                  src="checkmark-icon.png"
                   alt="checkmark-icon"
                   className="checkmark-icon"
                 />
@@ -94,7 +95,7 @@ const Skills = () => {
               </article>
               <article>
                 <img
-                  src="/checkmark-icon.png"
+                  src="checkmark-icon.png"
                   alt="checkmark-icon"
                   className="checkmark-icon"
                 />
@@ -105,7 +106,7 @@ const Skills = () => {
               </article>
               <article>
                 <img
-                  src="/checkmark-icon.png"
+                  src="checkmark-icon.png"
                   alt="checkmark-icon"
                   className="checkmark-icon"
                 />
@@ -116,7 +117,7 @@ const Skills = () => {
               </article>
               <article>
                 <img
-                  src="/checkmark-icon.png"
+                  src="checkmark-icon.png"
                   alt="checkmark-icon"
                   className="checkmark-icon"
                 />
@@ -128,7 +129,7 @@ const Skills = () => {
 
               <article>
                 <img
-                  src="/checkmark-icon.png"
+                  src="checkmark-icon.png"
                   alt="checkmark-icon"
                   className="checkmark-icon"
                 />
@@ -139,7 +140,7 @@ const Skills = () => {
               </article>
               <article>
                 <img
-                  src="/checkmark-icon.png"
+                  src="checkmark-icon.png"
                   alt="checkmark-icon"
                   className="checkmark-icon"
                 />

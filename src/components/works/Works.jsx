@@ -11,24 +11,25 @@ const items = [
   },
   {
     id: 2,
+    title: "Recipe Book",
+    img: "project-RecipeBook.png",
+    desc: "An interactive digital recipe collection with detailed instructions and categorized dishes. It’s a convenient platform for discovering new recipes, saving favorites, and enhancing culinary skills, perfect for food enthusiasts.",
+    link: "https://dwipannitasen.github.io/RecipeBook_codealpha_tasks/",
+  },
+
+  {
+    id: 3,
     title: "Simon Game",
     img: "Project-SimonGame.png",
     desc: "Simon Game offers a digital take on the classic memory challenge with vibrant colors, sound effects, and score tracking. Players test and improve their memory skills, making it a fun and nostalgic experience for all ages.",
     link: "https://dwipannitasen.github.io/simon-game",
   },
   {
-    id: 3,
+    id: 4,
     title: "Drum Kit",
     img: "project-DrumKit.png",
     desc: " An interactive online drum kit simulator where users can play sounds by clicking or tapping virtual pads. It’s a fun, engaging way for music lovers and aspiring drummers to experiment with drumming on any internet-enabled device.",
     link: "https://dwipannitasen.github.io/Drum-kit",
-  },
-  {
-    id: 4,
-    title: "Recipe Book",
-    img: "project-RecipeBook.png",
-    desc: "An interactive digital recipe collection with detailed instructions and categorized dishes. It’s a convenient platform for discovering new recipes, saving favorites, and enhancing culinary skills, perfect for food enthusiasts.",
-    link: "https://dwipannitasen.github.io/RecipeBook_codealpha_tasks/",
   },
 ];
 
