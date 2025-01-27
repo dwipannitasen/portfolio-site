@@ -1,11 +1,11 @@
 import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <Sidebar/>
+      <Sidebar />
       <div className="wrapper">
         <motion.span
           initial={{ opacity: 0, scale: 0.5 }}
@@ -21,15 +21,15 @@ const Navbar = () => {
           transition={{ duration: 0.5 }}
         >
           <a href="https://www.linkedin.com/in/dwipannita-sen-345234220/">
-            <img src="/linkedin.png" alt="" />
+            <img src="linkedin.png" alt="" />
           </a>
           <a href="https://github.com/dwipannitasen">
-            <img src="/github.png" alt="" />
+            <img src="github.png" alt="" />
           </a>
         </motion.div>
       </div>
     </div>
   );
-}
+};
 
-export default Navbar
+export default Navbar;

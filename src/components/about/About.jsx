@@ -11,7 +11,7 @@ const About = () => {
               I am passionate about creating seamless digital experiences
               through innovative frontend development. As a Master's in Computer
               Applications student specializing in frontend technologies, I have
-              refined my skills in HTML, CSS, and JavaScript to craft visually
+              refined my skills in HTML, CSS, and React Js to craft visually
               appealing and user-friendly interfaces. My mission is to deliver
               high-quality code that not only meets but exceeds user
               expectations. I believe in the power of technology to transform

@@ -5,7 +5,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 const resumeFile = "http://localhost:5173/DwipannitaSen.pdf";
 
 const textVariants = {
-  initial: { x: -500, opacity: 0},
+  initial: { x: -500, opacity: 0 },
   animate: {
     x: 0,
     opacity: 1,
@@ -30,7 +30,7 @@ const Hero = () => {
     words: ["Web Developer", "UI Designer"],
     loop: {},
     delaySpeed: 700,
-    deleteSpeed:80
+    deleteSpeed: 80,
   });
 
   const scrollToContact = () => {
@@ -74,7 +74,7 @@ const Hero = () => {
           </motion.div>
         </motion.div>
         <div className="imageContainer">
-          <img src="/landingphoto1.png" alt="hero-img"/>
+          <img src="landingphoto1.png" alt="hero-img" />
         </div>
       </div>
     </div>
